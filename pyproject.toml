@@ -1,0 +1,13 @@
+[project]
+name = "bruce-firmware-ci"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "platformio>=6.1.0",
+    "requests>=2.31.0",
+    "esptool>=4.8.0",
+    "intelhex>=2.3.0",
+]
+
+[tool.uv]
+exclude-newer = "1 week"
